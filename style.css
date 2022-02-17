@@ -1,0 +1,100 @@
+
+.background {
+    display: flex;
+    height: 100vh;
+    background-color: blanchedalmond;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightcyan;
+    border-radius: 5px;
+    border: 1px solid green;
+    width: 280px;
+}
+
+.text {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text-size { 
+    color: coral;
+    word-spacing: 67px;
+}
+
+.text-weight {
+    color: violet;
+    word-spacing: 30px;
+}
+
+.text-temp {
+    color:dodgerblue
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 20px 30px;
+}
+
+.select-unit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unit {
+    padding: 3px;
+}
+
+.enter-size, .enter-weight, .enter-temp  {
+    margin: 20px 0;
+}
+
+form {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#size, #weight, #temp {
+    max-width: 130px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#result-size, #result-weight, #result-temp {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+#result-size{
+    color: coral;
+}
+
+#result-weight {
+    color: violet;
+}
+
+#result-temp {
+    color: dodgerblue;
+    white-space: nowrap;
+}
+
+.me {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    height: 60px;
+}
