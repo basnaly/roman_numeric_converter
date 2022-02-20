@@ -1,94 +1,75 @@
 
 .background {
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-color: blanchedalmond;
-    flex-wrap: wrap;
+    background-image: url(colosseum.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+    position: relative;
+    align-items: flex-end;
 }
 
-.box {
+.right-box {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    background-color: lightcyan;
-    border-radius: 5px;
-    border: 1px solid green;
-    width: 280px;
 }
 
-.text {
-    font-size: 32px;
-    text-align: center;
-    margin: 10px;
-}
-
-.text-size { 
-    color: coral;
-    word-spacing: 67px;
-}
-
-.text-weight {
-    color: violet;
-    word-spacing: 30px;
-}
-
-.text-temp {
-    color:dodgerblue
-}
-
-.selection {
+.text-upper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 30px 20px 30px;
-}
-
-.select-unit {
-    display: flex;
+    flex-direction: column;
     align-items: center;
+    color: yellow;
+    font-size: 24px;
+    margin: 80px 30px 10px 30px;    
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+}
+
+.text-lower {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    color: yellow;
+    font-size: 24px;
+    margin: 10px 30px 10px 30px;  
 }
 
-.unit {
-    padding: 3px;
+.result {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    z-index: 1;
+    position: relative;
+    height: 30px;
 }
 
-.enter-size, .enter-weight, .enter-temp  {
-    margin: 20px 0;
+.caesar {
+    position: absolute;
+    max-width: 220px;
+    right: 70px;
 }
 
-form {
-    margin: 10px;
+#input{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
     text-align: center;
-    font-size: 20px;
+    width: 250px;
+    padding: 5px 10px;
+    margin: 10px;
 }
 
-#size, #weight, #temp {
-    max-width: 130px;
-}
-
-button {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 0 20px;
-}
-
-#result-size, #result-weight, #result-temp {
-    margin-top: 10px;
-    font-size: 28px;
-}
-
-#result-size{
-    color: coral;
-}
-
-#result-weight {
-    color: violet;
-}
-
-#result-temp {
-    color: dodgerblue;
-    white-space: nowrap;
+.send-button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 170px;
 }
 
 .me {
